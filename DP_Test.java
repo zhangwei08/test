@@ -17,7 +17,7 @@ public class DP_Test {
             return max(arry[0],arry[1]);
         }
         else {
-            int num_1 = dgs(arry,i-2)+arry[i];  //选
+            int num_1 = dgs(arry,i-2)+arry[i];
             int num_2 = dgs(arry,i-1);
             return max(num_1,num_2);
         }
